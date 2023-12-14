@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_registration_app/screen_login.dart';
 import 'package:flutter_registration_app/screen_registration.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const ScreenRegistration(),
+      home: const ScreenLogin(),
     );
   }
 }
